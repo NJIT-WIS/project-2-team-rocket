@@ -24,6 +24,8 @@ jobs:
           npm ci
           npx playwright install chromium
           npm install -g lighthouse chrome-launcher axe-core chromium wait-on
+      - name: Build the Next.js app
+        run: npm run build
       - name: Start the application
         run: |
           export DISPLAY=:1

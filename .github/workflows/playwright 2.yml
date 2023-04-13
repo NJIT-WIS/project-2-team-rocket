@@ -29,9 +29,14 @@ jobs:
       - name: Build the Next.js app
         run: npm run build
 
+      - name: Check on port 3000
+        run: |
+          sudo fuser -k 3000/tcp || true
+
       - name: Start the application
         run: |
-          npm start
+          export DISPLAY=:1
+          npm run start & npx wait-on --timeout 50000 http://0.0.0.0:3000
 
       - name: Run Playwright tests
         run: npx playwright test --config=playwright.config.js

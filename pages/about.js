@@ -6,7 +6,7 @@ export default function About() {
   return (
     <Layout>
       <Head>
-        <title>About - {siteTitle}</title>
+        <title>{siteTitle} | About</title>
       </Head>
       <section className={utilStyles.headingMd}>
         <h2 className={utilStyles.headingLg}>Welcome to MyWebClass.org - Pioneering the Future of Education</h2>

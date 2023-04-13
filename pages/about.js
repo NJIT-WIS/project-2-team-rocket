@@ -34,6 +34,15 @@ export default function About() {
         <p>
         In conclusion, embracing change in education and transcending the factory school model is essential for preparing students for the challenges and opportunities of the AI-driven world. Organizations like MyWebClass.org play a crucial role in driving this paradigm shift by incorporating Agile and Lean principles into the classroom. By working together, we can create an environment where students are better prepared for the future.
         </p>
+        <p>
+        References:
+        </p>
+        <p>
+            American Institutes for Research (2012). Study of Deeper Learning: Opportunities and Outcomes. Retrieved from https://www.air.org/resource/study-deeper-learning-opportunities-and-outcomes-2012"
+        </p>
+        <p>
+        Young, M. R., & Rasor, S. L. (2015). Implementing Agile Methods in K-12 Education. Journal of Applied Instructional Design, 5(1). Retrieved from https://edtechbooks.org/jaid_5_1/implementing_agile_methods_in_k_12_education"
+        </p>
         </section>
     </Layout>
   );

@@ -25,17 +25,21 @@ jobs:
           npm install wait-on@7.0.1
           npx playwright install chromium
           npm install -g lighthouse chrome-launcher axe-core chromium wait-on
+
       - name: Build the Next.js app
         run: npm run build
+
       - name: Start the application
         run: |
-          npm run start
+          npm start
+
       - name: Run Playwright tests
         run: npx playwright test --config=playwright.config.js
 
       - name: Generate Lighthouse Report
         run: |
           lighthouse http://localhost:3000 --output html --output-path ./test-results/report.html --chrome-flags="--headless --no-sandbox --disable-gpu"
+
       - name: Upload report, screenshots and videos of failed tests
         uses: actions/upload-artifact@v3
         with:

@@ -13,3 +13,24 @@
 .backToHome {
   margin: 3rem 0 0;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.navlink {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.footer {
+  /* Footer styles */
+}

@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Script from 'next/script'
+import Link from 'next/link'
 
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
 
-const name = '[Your Name]'
+const name = "MyWebClass.org"
 export const siteTitle = 'MyWebClass.org'
 
 export default function Layout({ children, home }) {
@@ -66,6 +66,20 @@ export default function Layout({ children, home }) {
             </h2>
           </>
         )}
+        <nav className={styles.navbar}>
+          <Link href="/">
+            <a className={styles.navlink + (home ? ` ${styles.active}` : '')}>Home</a>
+          </Link>
+          <Link href="/about">
+            <a className={styles.navlink}>About</a>
+          </Link>
+          <Link href="/blog">
+            <a className={styles.navlink}>Blog</a>
+          </Link>
+          <Link href="/account">
+            <a className={styles.navlink}>Account</a>
+          </Link>
+        </nav>
       </header>
       <main>{children}</main>
       {!home && (
@@ -73,6 +87,9 @@ export default function Layout({ children, home }) {
           <Link href="/">← Back to home</Link>
         </div>
       )}
+      <footer className={styles.footer}>
+        {/* Footer content */}
+      </footer>
     </div>
   )
 }

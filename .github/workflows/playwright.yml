@@ -27,7 +27,7 @@ jobs:
           npm install next@latest
 
       - name: Create the build
-        run: npx run build
+        run: npm run build
 
       - name: Check and kill process on port 3000
         run: |

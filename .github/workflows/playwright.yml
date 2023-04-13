@@ -24,16 +24,29 @@ jobs:
           npm ci
           npx playwright install chromium
           npm install -g lighthouse chrome-launcher axe-core chromium wait-on
+          npm install next@latest
+
+      - name: Create the build
+        run: npm run build
+
+      - name: Check and kill process on port 3000
+        run: |
+          sudo fuser -k 3000/tcp || true
+
       - name: Start the application
         run: |
           export DISPLAY=:1
-          npm run start & npx wait-on http://localhost:3000
+          echo "Starting the application..."
+          npm run start & npx wait-on --timeout 50000 http://0.0.0.0:3000/
+          echo "Application started."
+
       - name: Run Playwright tests
         run: npx playwright test --config=playwright.config.js
 
       - name: Generate Lighthouse Report
         run: |
           lighthouse http://localhost:3000 --output html --output-path ./test-results/report.html --chrome-flags="--headless --no-sandbox --disable-gpu"
+
       - name: Upload report, screenshots and videos of failed tests
         uses: actions/upload-artifact@v3
         with:

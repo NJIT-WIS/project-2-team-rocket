@@ -24,5 +24,14 @@ pages.forEach((page) => {
     const expectedTitle = page.title;
     await checkPageTitle(pageUrl, expectedTitle);
   });
+
+  test("Test case 1: Click on article link", async ({}) => {
+    await page.goto('http://localhost:3000/');
+    await page.getByRole('link', { name: 'When to Use Static Generation v.s. Server-side Rendering' }).click();
+
+    //expect(page.url()).toContain('https://kaanismet.github.io/mywebclass-simulation/');
+  });
+
+
 });
 

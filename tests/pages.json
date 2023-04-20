@@ -7,6 +7,14 @@
       {
         "path": "/about",
         "title": "MyWebClass.org | About"
+      },
+      {
+        "path": "/blog",
+        "title": "MyWebClass.org | Blog"
+      },
+      {
+        "path": "/account",
+        "title": "MyWebClass.org | Account"
       }
     ]
 }

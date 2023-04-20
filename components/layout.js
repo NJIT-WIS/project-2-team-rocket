@@ -66,20 +66,53 @@ export default function Layout({ children, home }) {
             </h2>
           </>
         )}
-        <nav className={styles.navbar}>
-          <Link href="/">
+
+//        navbar
+    <nav className={styles.navbar}>
+        <Link href="/pages/index.js">
             <a className={styles.navlink + (home ? ` ${styles.active}` : '')}>Home</a>
-          </Link>
-          <Link href="/about">
-            <a className={styles.navlink}>About</a>
-          </Link>
-          <Link href="/blog">
+        </Link>
+
+        <Link href="/about.js">
+            <a className={styles.navlink}>About ▼</a>
+        </Link>
+        <ul className={styles.dropdown}>
+            <li><Link href="/about#mission"><a className={styles.dropdownLink}>Our Mission</a></Link></li>
+            <li><Link href="/about#success-stories"><a className={styles.dropdownLink}>Success Stories</a></Link></li>
+            <li><Link href="/about#our-team"><a className={styles.dropdownLink}>Our Team</a></Link></li>
+            <li><Link href="/about#partnerships-and-affiliations"><a className={styles.dropdownLink}>Partnerships and Affiliations</a></Link></li>
+        </ul>
+
+        <Link href="/agile-and-lean-principles">
+            <a className={styles.navlink}>Agile and Lean Principles</a>
+        </Link>
+
+        <Link href="/blog.js">
             <a className={styles.navlink}>Blog</a>
-          </Link>
-          <Link href="/account">
-            <a className={styles.navlink}>Account</a>
-          </Link>
-        </nav>
+        </Link>
+
+        <Link href="/resources">
+            <a className={styles.navlink}>Resources ▼</a>
+        </Link>
+        <ul className={styles.dropdown}>
+                <li><Link href="/resources#academic-articles"><a className={styles.dropdownLink}>Academic Articles</a></Link></li>
+                <li><Link href="/resources#downloadable-guides"><a className={styles.dropdownLink}>Downloadable Guides</a></Link></li>
+                <li><Link href="/resources#webinars-and-workshops"><a className={styles.dropdownLink}>Webinars and Workshops</a></Link></li>
+        </ul>
+
+        <Link href="/services">
+            <a className={styles.navlink}>Services ▼</a>
+        </Link>
+        <ul className={styles.dropdown}>
+            <li><Link href="/services#professional-development"><a className={styles.dropdownLink}>Professional Development</a></Link></li>
+            <li><Link href="/services#customized-training-and-support"><a className={styles.dropdownLink}>Customized Training and Support</a></Link></li>
+        </ul>
+
+        <Link href="/contact">
+            <a className={styles.navlink}>Contact</a>
+        </Link>
+    </nav>
+
       </header>
       <main>{children}</main>
       {!home && (

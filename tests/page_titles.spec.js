@@ -27,9 +27,10 @@ pages.forEach((page) => {
 });
 
 test("Test case 1: Click on article link", async ({ page }) => {
-    await page.goto('njit-wis.github.io/project-2-team-rocket/');
-    await page.getByRole('link', { name: 'When to Use Static Generation v.s. Server-side Rendering' }).click();
-  });
+  await page.goto('njit-wis.github.io/project-2-team-rocket/');
+  await page.waitForSelector('a', { text: 'When to Use Static Generation v.s. Server-side Rendering', visible: true }).click();
+});
+
 
 
 

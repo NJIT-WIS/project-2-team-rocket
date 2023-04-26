@@ -2,6 +2,12 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 
+import styles from './layout.module.css'
+import utilStyles from '../styles/utils.module.css'
+
+const name = "MyWebClass.org"
+export const siteTitle = 'MyWebClass.org'
+
 export default function About() {
   return (
   <Layout home={true}>
@@ -9,7 +15,6 @@ export default function About() {
         <title>{siteTitle} | About</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <h2 className={utilStyles.headingLg}>Welcome to MyWebClass.org - Pioneering the Future of Education</h2>
         <p>
         Dear friends, colleagues, and fellow educators, we invite you to join us on an essential journey – the transformation of education for the AI-driven world. As we navigate the challenges and opportunities of the Fourth Industrial Revolution, it is crucial to reimagine our educational practices and adopt a new paradigm that empowers our students with the knowledge and skills they need to flourish in an increasingly complex and interconnected world.
         </p>
@@ -33,15 +38,6 @@ export default function About() {
         </p>
         <p>
         In conclusion, embracing change in education and transcending the factory school model is essential for preparing students for the challenges and opportunities of the AI-driven world. Organizations like MyWebClass.org play a crucial role in driving this paradigm shift by incorporating Agile and Lean principles into the classroom. By working together, we can create an environment where students are better prepared for the future.
-        </p>
-        <p>
-        References:
-        </p>
-        <p>
-            American Institutes for Research (2012). Study of Deeper Learning: Opportunities and Outcomes. Retrieved from https://www.air.org/resource/study-deeper-learning-opportunities-and-outcomes-2012"
-        </p>
-        <p>
-        Young, M. R., & Rasor, S. L. (2015). Implementing Agile Methods in K-12 Education. Journal of Applied Instructional Design, 5(1). Retrieved from https://edtechbooks.org/jaid_5_1/implementing_agile_methods_in_k_12_education"
         </p>
         </section>
     </Layout>

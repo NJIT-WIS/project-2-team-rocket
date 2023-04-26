@@ -3,8 +3,10 @@ import Image from 'next/image'
 import Script from 'next/script'
 import Link from 'next/link'
 
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
+import React from 'react'
+import "../layout.module.css"
+import styles from "./layout.module.css"
+import utilStyles from "../styles/utils.module.css"
 
 const name = "MyWebClass.org"
 export const siteTitle = 'MyWebClass.org'
@@ -67,18 +69,16 @@ export default function Layout({ children, home }) {
           </>
         )}
 
-//        navbar
     <nav className={styles.navbar}>
-        <Link href="/pages/index.js">
+        <Link href="/index">
             <a className={styles.navlink + (home ? ` ${styles.active}` : '')}>Home</a>
         </Link>
 
-        <Link href="/about.js">
+        <Link href="/about">
             <a className={styles.navlink}>About ▼</a>
         </Link>
         <ul className={styles.dropdown}>
-            <li><Link href="/about#mission"><a className={styles.dropdownLink}>Our Mission</a></Link></li>
-            <li><Link href="/about#success-stories"><a className={styles.dropdownLink}>Success Stories</a></Link></li>
+            <li><Link href="/ourMission"><a className={styles.dropdownLink}>Our Mission</a></Link></li>
             <li><Link href="/about#our-team"><a className={styles.dropdownLink}>Our Team</a></Link></li>
             <li><Link href="/about#partnerships-and-affiliations"><a className={styles.dropdownLink}>Partnerships and Affiliations</a></Link></li>
         </ul>
@@ -87,7 +87,7 @@ export default function Layout({ children, home }) {
             <a className={styles.navlink}>Agile and Lean Principles</a>
         </Link>
 
-        <Link href="/blog.js">
+        <Link href="/blog">
             <a className={styles.navlink}>Blog</a>
         </Link>
 
@@ -110,6 +110,10 @@ export default function Layout({ children, home }) {
 
         <Link href="/contact">
             <a className={styles.navlink}>Contact</a>
+        </Link>
+
+        <Link href="/account">
+            <a className={styles.navlink}>Account</a>
         </Link>
     </nav>
 

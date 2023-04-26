@@ -5,6 +5,12 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 
+import styles from './layout.module.css'
+import utilStyles from '../styles/utils.module.css'
+
+const name = "MyWebClass.org"
+export const siteTitle = 'MyWebClass.org'
+
 export default function Blog({ allPostsData }) {
   return (
   <Layout home={true}>

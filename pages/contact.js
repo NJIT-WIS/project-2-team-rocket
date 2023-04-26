@@ -3,14 +3,17 @@ import Layout, { siteTitle } from '../components/layout'
 
 import React from 'react'
 import "../layout.module.css"
+import "../css/customcss.css";
 import styles from "./layout.module.css"
 import utilStyles from "../styles/utils.module.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Contact() {
   return (
     <Layout home={true}>
       <Head>
         <title>{siteTitle} | Contact</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <section className={utilStyles.headingMd}>
         <h2>Company Information</h2>

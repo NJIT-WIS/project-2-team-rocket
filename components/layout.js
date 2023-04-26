@@ -3,10 +3,13 @@ import Image from 'next/image'
 import Script from 'next/script'
 import Link from 'next/link'
 
+
+import "../css/customcss.css";
 import React from 'react'
 import "../layout.module.css"
 import styles from "./layout.module.css"
 import utilStyles from "../styles/utils.module.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const name = "MyWebClass.org"
 export const siteTitle = 'MyWebClass.org'
@@ -96,16 +99,15 @@ export default function Layout({ children, home }) {
         </Link>
         <ul className={styles.dropdown}>
                 <li><Link href="/resources#academic-articles"><a className={styles.dropdownLink}>Academic Articles</a></Link></li>
-                <li><Link href="/resources#downloadable-guides"><a className={styles.dropdownLink}>Downloadable Guides</a></Link></li>
-                <li><Link href="/resources#webinars-and-workshops"><a className={styles.dropdownLink}>Webinars and Workshops</a></Link></li>
+                <li><Link href="/webinar"><a className={styles.dropdownLink}>Webinars and Workshops</a></Link></li>
         </ul>
 
         <Link href="/services">
             <a className={styles.navlink}>Services ▼</a>
         </Link>
         <ul className={styles.dropdown}>
-            <li><Link href="/services#professional-development"><a className={styles.dropdownLink}>Professional Development</a></Link></li>
-            <li><Link href="/services#customized-training-and-support"><a className={styles.dropdownLink}>Customized Training and Support</a></Link></li>
+            <li><Link href="/professional"><a className={styles.dropdownLink}>Professional Development</a></Link></li>
+            <li><Link href="/training"><a className={styles.dropdownLink}>Customized Training and Support</a></Link></li>
         </ul>
 
         <Link href="/contact">

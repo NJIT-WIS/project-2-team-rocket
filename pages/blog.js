@@ -6,7 +6,9 @@ import Link from 'next/link'
 import Date from '../components/date'
 
 import styles from './layout.module.css'
+import "../css/customcss.css";
 import utilStyles from '../styles/utils.module.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const name = "MyWebClass.org"
 export const siteTitle = 'MyWebClass.org'
@@ -16,6 +18,7 @@ export default function Blog({ allPostsData }) {
   <Layout home={true}>
       <Head>
         <title>{siteTitle} | Blog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>

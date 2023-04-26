@@ -3,7 +3,9 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 
 import styles from './layout.module.css'
+import "../css/customcss.css";
 import utilStyles from '../styles/utils.module.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const name = "MyWebClass.org"
 export const siteTitle = 'MyWebClass.org'
@@ -13,6 +15,7 @@ export default function About() {
   <Layout home={true}>
       <Head>
         <title>{siteTitle} | About</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <section className={utilStyles.headingMd}>
         <p>

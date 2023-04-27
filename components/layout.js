@@ -72,7 +72,7 @@ export default function Layout({ children, home }) {
         )}
 
     <nav className={styles.navbar}>
-        <Link href="/index">
+        <Link href="/">
             <span className={styles.navlink + (home ? ` ${styles.active}` : '')}>Home</span>
         </Link>
 

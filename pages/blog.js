@@ -4,14 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
-
-import styles from './layout.module.css'
-import "../css/customcss.css";
-import utilStyles from '../styles/utils.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-const name = "MyWebClass.org"
-export const siteTitle = 'MyWebClass.org'
 
 export default function Blog({ allPostsData }) {
   return (

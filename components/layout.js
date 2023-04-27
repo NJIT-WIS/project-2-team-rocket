@@ -4,9 +4,8 @@ import Script from 'next/script'
 import Link from 'next/link'
 
 
-import "../css/customcss.css";
 import React from 'react'
-import "../layout.module.css"
+import "./layout.module.css"
 import styles from "./layout.module.css"
 import utilStyles from "../styles/utils.module.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -74,7 +73,7 @@ export default function Layout({ children, home }) {
 
     <nav className={styles.navbar}>
         <Link href="/index">
-            <a className={styles.navlink + (home ? ` ${styles.active}` : '')}>Home</a>
+            <span className={styles.navlink + (home ? ` ${styles.active}` : '')}>Home</span>
         </Link>
 
         <Link href="/about">

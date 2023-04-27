@@ -2,10 +2,6 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 
 import React from 'react'
-import "../layout.module.css"
-import "../css/customcss.css";
-import styles from "./layout.module.css"
-import utilStyles from "../styles/utils.module.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function WebinarsWorkshops() {

@@ -1,10 +1,6 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import React from 'react'
-
-import "../css/customcss.css";
-import "../layout.module.css"
-import styles from "./layout.module.css"
 import utilStyles from "../styles/utils.module.css"
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'

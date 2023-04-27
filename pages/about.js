@@ -1,15 +1,7 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
-
-import styles from './layout.module.css'
-import "../css/customcss.css";
-import utilStyles from '../styles/utils.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-const name = "MyWebClass.org"
-export const siteTitle = 'MyWebClass.org'
 
 export default function About() {
   return (

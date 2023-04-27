@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="edited nav bar, added css for nav bar, created ourMission, account, and contact page">
-      <change afterPath="$PROJECT_DIR$/pages/academic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/professional.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/training.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/webinar.js" afterDir="false" />
+    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/date 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout 2.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout.module 2.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/academic.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/academic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/ourMission.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ourMission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/professional.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/professional.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/training.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/training.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/webinar.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/webinar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -66,3 +66,21 @@
 .navlink:hover .dropdown {
   display: block;
 }
+
+/* override the Bootstrap H1 styles */
+h1 {
+  color: teal;
+}
+
+/* override the Bootstrap button styles */
+.btn {
+  background-color: teal;
+  border-color: teal;
+  color: white;
+}
+
+/* override the Bootstrap navbar styles */
+.navbar {
+  background-color: #008080;
+}
+

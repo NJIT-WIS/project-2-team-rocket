@@ -13,27 +13,46 @@ export default function Contact() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <section className={utilStyles.headingMd}>
-        <h2>Company Information</h2>
-        <p>
-          Phone number: 732-111-2222<br />
-          Email: mywebclass@gmail.com<br />
-          Address: 123 Main St, Newark, NJ 07101
-        </p>
+        <div className="text-center">
+          <h2>Company Information</h2>
+          <p>
+            Phone number: 732-111-2222<br />
+            Email: mywebclass@gmail.com<br />
+            Address: 123 Main St, Newark, NJ 07101
+          </p>
+        </div>
         <h2>Contact Us!</h2>
         <form>
-          <label htmlFor="name">Name:</label>
-          <input type="text" id="name" name="name" required /><br />
+          <div className="row">
+            <div className="col">
+              <label htmlFor="name">Name:</label>
+              <input type="text" className="form-control" id="name" name="name" required/>
+            </div>
+            <div className="col">
+              <label htmlFor="email">Email:</label>
+              <input type="email" className="form-control" id="email" name="email" required/>
+            </div>
+          </div>
 
-          <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="email" required /><br />
+          <div className="row">
+            <div className="col">
+              <label htmlFor="phone">Phone:</label>
+              <input type="tel" className="form-control" id="phone" name="phone" required/>
+            </div>
+          </div>
 
-          <label htmlFor="phone">Phone:</label>
-          <input type="tel" id="phone" name="phone" required /><br />
+          <div className="row">
+            <div className="col">
+              <label htmlFor="message">Message:</label>
+              <textarea className="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+          </div>
 
-          <label htmlFor="message">Message:</label>
-          <textarea id="message" name="message" rows="4" required></textarea><br />
-
-          <button type="submit">Submit</button>
+          <div className="row p-1">
+            <div className="col text-center">
+              <button type="submit" className="btn btn-primary mx-auto">Submit</button>
+            </div>
+          </div>
         </form>
       </section>
     </Layout>

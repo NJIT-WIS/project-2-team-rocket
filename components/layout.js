@@ -84,7 +84,7 @@ export default function Layout({ children, home }) {
             <li><Link href="/about#partnerships-and-affiliations"><a className={styles.dropdownLink}>Partnerships and Affiliations</a></Link></li>
         </ul>
 
-        <Link href="/agile-and-lean-principles">
+        <Link href="/Agile_and_Lean_principles">
             <a className={styles.navlink}>Agile and Lean Principles</a>
         </Link>
 

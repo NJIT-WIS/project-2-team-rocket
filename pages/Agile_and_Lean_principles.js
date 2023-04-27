@@ -3,7 +3,7 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function AgileAndLean() {
+export default function Agile_and_Lean_principles() {
   return (
   <Layout home={true}>
       <Head>

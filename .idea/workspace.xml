@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="added resorces, parneship, shrves, agile and lean pages, edited nav bar">
-      <change beforePath="$PROJECT_DIR$/components/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/utils.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/utils.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/agilelean.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Agile_and_Lean_principles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682566400979</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added teal color to the navbar and header tags">
+      <created>1682567735400</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682567735400</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +135,7 @@
     <MESSAGE value="created blog posts, edited about page information" />
     <MESSAGE value="deleted overcoming post" />
     <MESSAGE value="added resorces, parneship, shrves, agile and lean pages, edited nav bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="added resorces, parneship, shrves, agile and lean pages, edited nav bar" />
+    <MESSAGE value="added teal color to the navbar and header tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="added teal color to the navbar and header tags" />
   </component>
 </project>

@@ -1,0 +1,47 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"12f46015-2822-43ff-aa4e-b99fa7178854\" name=\"Changes\" comment=\"fixed the home link.\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/pages/contact.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pages/contact.js\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2O4FsOMIDUzZEMTAQvIPWSTtbsP\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\allie\\PycharmProjects\\project-2-team-rocket\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"12f46015-2822-43ff-aa4e-b99fa7178854\" name=\"Changes\" comment=\"\" />\n      <created>1680812153053</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1680812153053</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"changes to javascript\">\n      <created>1681350650270</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681350650270</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"changes to javascript\">\n      <created>1681353780929</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681353780929</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"changes to javascript\">\n      <created>1681353882509</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681353882509</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"edited nav bar, added css for nav bar, created ourMission, account, and contact page\">\n      <created>1682484179564</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1682484179564</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"deleted layout.module 2.css and other directories from some of the pages.\">\n      <created>1682558272101</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1682558272101</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"fixed the home link.\">\n      <created>1682561788712</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1682561788712</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"7\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"changes to javascript\" />\n    <MESSAGE value=\"edited nav bar, added css for nav bar, created ourMission, account, and contact page\" />\n    <MESSAGE value=\"deleted layout.module 2.css and other directories from some of the pages.\" />\n    <MESSAGE value=\"fixed the home link.\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"fixed the home link.\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 1c4db05dd75964a12f63f410acf1ee56be4556bc)
++++ b/.idea/workspace.xml	(date 1682564176297)
+@@ -1,9 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="fixed the home link.">
++    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="reformatted the contact.js">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.js" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -84,7 +83,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1682561788712</updated>
+     </task>
+-    <option name="localTasksCounter" value="7" />
++    <task id="LOCAL-00007" summary="reformatted the contact.js">
++      <created>1682563434319</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1682563434319</updated>
++    </task>
++    <option name="localTasksCounter" value="8" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -103,6 +109,7 @@
+     <MESSAGE value="edited nav bar, added css for nav bar, created ourMission, account, and contact page" />
+     <MESSAGE value="deleted layout.module 2.css and other directories from some of the pages." />
+     <MESSAGE value="fixed the home link." />
+-    <option name="LAST_COMMIT_MESSAGE" value="fixed the home link." />
++    <MESSAGE value="reformatted the contact.js" />
++    <option name="LAST_COMMIT_MESSAGE" value="reformatted the contact.js" />
+   </component>
+ </project>
+\ No newline at end of file

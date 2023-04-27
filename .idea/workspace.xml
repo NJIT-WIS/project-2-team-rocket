@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="fixed the home link.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.js" afterDir="false" />
-    </list>
+    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="created blog posts, edited about page information" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682561788712</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="created blog posts, edited about page information">
+      <created>1682564663401</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682564663401</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +107,7 @@
     <MESSAGE value="edited nav bar, added css for nav bar, created ourMission, account, and contact page" />
     <MESSAGE value="deleted layout.module 2.css and other directories from some of the pages." />
     <MESSAGE value="fixed the home link." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed the home link." />
+    <MESSAGE value="created blog posts, edited about page information" />
+    <option name="LAST_COMMIT_MESSAGE" value="created blog posts, edited about page information" />
   </component>
 </project>

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="created blog posts, edited about page information" />
+    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="deleted overcoming post">
+      <change afterPath="$PROJECT_DIR$/pages/partnership.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/agilelean.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/agilelean.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682564663401</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="deleted overcoming post">
+      <created>1682565131982</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682565131982</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +121,7 @@
     <MESSAGE value="deleted layout.module 2.css and other directories from some of the pages." />
     <MESSAGE value="fixed the home link." />
     <MESSAGE value="created blog posts, edited about page information" />
-    <option name="LAST_COMMIT_MESSAGE" value="created blog posts, edited about page information" />
+    <MESSAGE value="deleted overcoming post" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted overcoming post" />
   </component>
 </project>

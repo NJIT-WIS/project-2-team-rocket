@@ -81,7 +81,6 @@ export default function Layout({ children, home }) {
         </Link>
         <ul className={styles.dropdown}>
             <li><Link href="/ourMission"><a className={styles.dropdownLink}>Our Mission</a></Link></li>
-            <li><Link href="/about#our-team"><a className={styles.dropdownLink}>Our Team</a></Link></li>
             <li><Link href="/about#partnerships-and-affiliations"><a className={styles.dropdownLink}>Partnerships and Affiliations</a></Link></li>
         </ul>
 

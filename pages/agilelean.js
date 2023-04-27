@@ -12,19 +12,16 @@ export default function AgileAndLean() {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-        Are you passionate about transforming education for the AI-driven world? Do you want to make a difference in your community by empowering students with the skills they need to succeed in the future job market? Then MyWebClass.org is the perfect place for you to volunteer and make an impact!
+        Agile and Lean principles have been widely used in software development and manufacturing, but they also have significant applications in education. By embracing these principles, educators can create a flexible, adaptive, and student-centered learning environment.
         </p>
         <p>
-        As a volunteer for MyWebClass.org, you will be part of a team that is committed to revolutionizing education. By incorporating Agile and Lean principles into the classroom, we aim to nurture creativity, adaptability, and collaboration in students. Our goal is to create a culture of continuous improvement, where students are prepared for the challenges and opportunities of the AI-driven world.
+        Incorporating Agile and Lean principles in the classroom promotes critical thinking, problem-solving, and collaboration among students. These principles also cultivate a growth mindset and a focus on continuous improvement, which are fundamental to lifelong learning.
         </p>
         <p>
-        As a volunteer, you will have the opportunity to conduct research, develop resources and tools, and collaborate with schools and educators to create a network of professionals dedicated to improving education. You will be contributing to a cause that is not only important but also rewarding.
+        Agile and Lean principles emphasize the importance of responsiveness to change, efficiency, and maximizing value for the student. Educators who adopt these principles can improve the overall learning experience for their students. The principles also encourage experimentation and innovation in teaching, which can lead to more effective and engaging learning experiences.
         </p>
         <p>
-        The impact of your volunteer work will extend beyond the classroom. By empowering students with the skills they need to succeed, you will be contributing to the future of your community. As more and more jobs require skills in AI, data science, and other emerging fields, your volunteer work will help prepare the next generation for success.
-        </p>
-        <p>
-        Join us in this essential journey of transforming education for the AI-driven world. Volunteer for MyWebClass.org and make a difference in your community today!
+        In summary, Agile and Lean principles provide a framework for creating a dynamic and effective learning environment that is responsive to student needs, encourages growth and innovation, and fosters lifelong learning.
         </p>
         </section>
     </Layout>

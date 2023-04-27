@@ -9,8 +9,24 @@
         "title": "MyWebClass.org | About"
       },
       {
+        "path": "/Agile_and_Lean_principles",
+        "title": "MyWebClass.org | Agile and Lean Principles"
+      },
+      {
         "path": "/blog",
         "title": "MyWebClass.org | Blog"
+      },
+      {
+        "path": "/services",
+        "title": "MyWebClass.org | Services"
+      },
+      {
+        "path": "/resources",
+        "title": "MyWebClass.org | Resources"
+      },
+      {
+        "path": "/contact",
+        "title": "MyWebClass.org | Contact"
       },
       {
         "path": "/account",

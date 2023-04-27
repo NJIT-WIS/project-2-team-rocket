@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="deleted layout.module 2.css and other directories from some of the pages.">
+    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="edited nav bar, added css for nav bar, created ourMission, account, and contact page">
+      <change afterPath="$PROJECT_DIR$/pages/agilelean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/EmbracingAgileMindset.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/Fostering.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/Interdiciplenary.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/LeanPrinciples.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/Neuroscience.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/Overcoming.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/Personalized.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/Power.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/ProjectBased.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/StudentsinAIWorld.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/ourMission.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ourMission.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,14 +82,7 @@
       <option name="project" value="LOCAL" />
       <updated>1682484179564</updated>
     </task>
-    <task id="LOCAL-00005" summary="deleted layout.module 2.css and other directories from some of the pages.">
-      <created>1682558272101</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1682558272101</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,7 +99,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes to javascript" />
     <MESSAGE value="edited nav bar, added css for nav bar, created ourMission, account, and contact page" />
-    <MESSAGE value="deleted layout.module 2.css and other directories from some of the pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted layout.module 2.css and other directories from some of the pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="edited nav bar, added css for nav bar, created ourMission, account, and contact page" />
   </component>
 </project>

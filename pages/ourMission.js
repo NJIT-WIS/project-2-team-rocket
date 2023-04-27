@@ -12,7 +12,8 @@ export default function About() {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-        MyWebClass.org, a foundation committed to revolutionizing education by incorporating Agile and Lean principles into the classroom, is at the forefront of this transformation. Our mission encompasses conducting research on effective strategies, developing resources and tools, offering professional development opportunities, and collaborating with schools and educators to foster a culture of continuous improvement, collaboration, and adaptability.        </p>
+        Our mission is to conduct research, develop resources and tools, offer professional development opportunities, and collaborate with schools and educators to foster a culture of continuous improvement, collaboration, and adaptability. We also address the cognitive and mental health challenges faced by students in this rapidly changing world.
+        </p>
         </section>
     </Layout>
   );

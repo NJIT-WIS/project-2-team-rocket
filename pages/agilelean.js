@@ -3,11 +3,11 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function About() {
+export default function AgileAndLean() {
   return (
   <Layout home={true}>
       <Head>
-        <title>{siteTitle} | About</title>
+        <title>{siteTitle} | Agile and Lean Principles</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <section className={utilStyles.headingMd}>

@@ -3,8 +3,12 @@ import Image from 'next/image'
 import Script from 'next/script'
 import Link from 'next/link'
 
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
+
+import React from 'react'
+import "./layout.module.css"
+import styles from "./layout.module.css"
+import utilStyles from "../styles/utils.module.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const name = "MyWebClass.org"
 export const siteTitle = 'MyWebClass.org'
@@ -66,20 +70,54 @@ export default function Layout({ children, home }) {
             </h2>
           </>
         )}
-        <nav className={styles.navbar}>
-          <Link href="/">
-            <a className={styles.navlink + (home ? ` ${styles.active}` : '')}>Home</a>
-          </Link>
-          <Link href="/about">
-            <a className={styles.navlink}>About</a>
-          </Link>
-          <Link href="/blog">
+
+    <nav className={styles.navbar}>
+        <Link href="/index">
+            <span className={styles.navlink + (home ? ` ${styles.active}` : '')}>Home</span>
+        </Link>
+
+        <Link href="/about">
+            <a className={styles.navlink}>About ▼</a>
+        </Link>
+        <ul className={styles.dropdown}>
+            <li><Link href="/ourMission"><a className={styles.dropdownLink}>Our Mission</a></Link></li>
+            <li><Link href="/about#our-team"><a className={styles.dropdownLink}>Our Team</a></Link></li>
+            <li><Link href="/about#partnerships-and-affiliations"><a className={styles.dropdownLink}>Partnerships and Affiliations</a></Link></li>
+        </ul>
+
+        <Link href="/agile-and-lean-principles">
+            <a className={styles.navlink}>Agile and Lean Principles</a>
+        </Link>
+
+        <Link href="/blog">
             <a className={styles.navlink}>Blog</a>
-          </Link>
-          <Link href="/account">
+        </Link>
+
+        <Link href="/resources">
+            <a className={styles.navlink}>Resources ▼</a>
+        </Link>
+        <ul className={styles.dropdown}>
+                <li><Link href="/resources#academic-articles"><a className={styles.dropdownLink}>Academic Articles</a></Link></li>
+                <li><Link href="/webinar"><a className={styles.dropdownLink}>Webinars and Workshops</a></Link></li>
+        </ul>
+
+        <Link href="/services">
+            <a className={styles.navlink}>Services ▼</a>
+        </Link>
+        <ul className={styles.dropdown}>
+            <li><Link href="/professional"><a className={styles.dropdownLink}>Professional Development</a></Link></li>
+            <li><Link href="/training"><a className={styles.dropdownLink}>Customized Training and Support</a></Link></li>
+        </ul>
+
+        <Link href="/contact">
+            <a className={styles.navlink}>Contact</a>
+        </Link>
+
+        <Link href="/account">
             <a className={styles.navlink}>Account</a>
-          </Link>
-        </nav>
+        </Link>
+    </nav>
+
       </header>
       <main>{children}</main>
       {!home && (

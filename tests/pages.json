@@ -17,10 +17,6 @@
         "title": "MyWebClass.org | Blog"
       },
       {
-        "path:": "/resources",
-        "title": "MyWebClass.org | Resources"
-      },
-      {
         "path": "/services",
         "title": "MyWebClass.org | Services"
       },

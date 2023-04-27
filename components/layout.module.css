@@ -68,7 +68,7 @@
 }
 
 /* override the Bootstrap H1 styles */
-h1 {
+.tealColor {
   color: teal;
 }
 

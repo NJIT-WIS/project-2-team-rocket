@@ -21,6 +21,10 @@
         "title": "MyWebClass.org | Services"
       },
       {
+        "path": "/resources",
+        "title": "MyWebClass.org | Resources"
+      },
+      {
         "path": "/contact",
         "title": "MyWebClass.org | Contact"
       },

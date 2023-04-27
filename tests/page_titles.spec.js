@@ -26,3 +26,9 @@ pages.forEach((page) => {
   });
 });
 
+test("Test case 1: Click on about page", async ({ page }) => {
+  await page.goto('njit-wis.github.io/project-2-team-rocket/');
+  await page.getByText('About ▼').click();
+
+  expect(page.url()).toBe('njit-wis.github.io/project-2-team-rocket/about');
+});

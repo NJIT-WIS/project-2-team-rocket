@@ -11,7 +11,6 @@ export default function Blog({ allPostsData }) {
   <Layout home={true}>
       <Head>
 
-//      <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LERWW2ZVSY"></script>
 <script>
   window.dataLayer = window.dataLayer || [];

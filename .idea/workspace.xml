@@ -1,26 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="added resorces, parneship, shrves, agile and lean pages, edited nav bar">
-      <change afterPath="$PROJECT_DIR$/components/GDPR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/analytics.js" afterDir="false" />
+    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="added google analytics and GDPR">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/academic.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/academic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/agilelean.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/agilelean.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/ourMission.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ourMission.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/partnership.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/partnership.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/professional.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/professional.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/resources.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/training.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/training.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/webinar.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/webinar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682566400979</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added google analytics and GDPR">
+      <created>1683162794380</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683162794380</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +133,7 @@
     <MESSAGE value="created blog posts, edited about page information" />
     <MESSAGE value="deleted overcoming post" />
     <MESSAGE value="added resorces, parneship, shrves, agile and lean pages, edited nav bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="added resorces, parneship, shrves, agile and lean pages, edited nav bar" />
+    <MESSAGE value="added google analytics and GDPR" />
+    <option name="LAST_COMMIT_MESSAGE" value="added google analytics and GDPR" />
   </component>
 </project>

@@ -13,9 +13,6 @@ function MyApp({ Component, pageProps }) {
     }
     logPageView();
     router.events.on('routeChangeComplete', logPageView);
-
-    import('bootstrap/dist/js/bootstrap');
-
     return () => {
       router.events.off('routeChangeComplete', logPageView);
     }

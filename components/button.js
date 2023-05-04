@@ -1,4 +1,11 @@
-import { dataLayer } from '../lib/datalayer';
+//import { dataLayer } from "../lib/datalayer"
+
+export const dataLayer = (data) => {
+  if (typeof window !== 'undefined') {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(data);
+  }
+}
 
 function Button(props) {
   const handleClick = () => {

@@ -15,7 +15,7 @@ export default function Home({ allPostsData }) {
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LERWW2ZVSY"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag(){dataLayer.push(arguments)}
   gtag('js', new Date());
 
   gtag('config', 'G-LERWW2ZVSY');

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="added google analytics and GDPR">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="fixed google analytics">
+      <change beforePath="$PROJECT_DIR$/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +14,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2O4FsOMIDUzZEMTAQvIPWSTtbsP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -111,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683162794380</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fixed google analytics">
+      <created>1683163824359</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683163824359</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +144,7 @@
     <MESSAGE value="deleted overcoming post" />
     <MESSAGE value="added resorces, parneship, shrves, agile and lean pages, edited nav bar" />
     <MESSAGE value="added google analytics and GDPR" />
-    <option name="LAST_COMMIT_MESSAGE" value="added google analytics and GDPR" />
+    <MESSAGE value="fixed google analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed google analytics" />
   </component>
 </project>

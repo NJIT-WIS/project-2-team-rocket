@@ -1,14 +1,27 @@
-import 'bootstrap/dist/css/bootstrap.css'; // Add this line
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import 'bootstrap/dist/css/bootstrap.css';
 import { useEffect } from 'react';
+import { useRouter } from 'next/router';
+import { initGA, logPageView } from '../lib/analytics';
 
 function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    import('bootstrap/dist/js/bootstrap');
-  }, []);
+  const router = useRouter();
 
-  return <Component {...pageProps} />;
+  useEffect(() => {
+    if (!window.GA_INITIALIZED) {
+      initGA();
+      window.GA_INITIALIZED = true;
+    }
+    logPageView();
+    router.events.on('routeChangeComplete', logPageView);
+
+    import('bootstrap/dist/js/bootstrap');
+
+    return () => {
+      router.events.off('routeChangeComplete', logPageView);
+    }
+  }, [router.events])
+
+  return <Component {...pageProps} />
 }
 
 export default MyApp;

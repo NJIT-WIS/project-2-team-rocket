@@ -8,6 +8,17 @@ export default function ProfessionalDevelopment() {
   return (
   <Layout home={true}>
       <Head>
+
+//      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LERWW2ZVSY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LERWW2ZVSY');
+</script>
+
         <title>Professional Development</title>
       </Head>
       <div className="container mt-5">

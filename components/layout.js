@@ -71,50 +71,70 @@ export default function Layout({ children, home }) {
           </>
         )}
 
-    <nav className={styles.navbar}>
-        <Link href="/">
-            <span className={styles.navlink + (home ? ` ${styles.active}` : '')}>Home</span>
-        </Link>
+ <nav className={styles.navbar}>
+      <Link href="/">
+        <a className={styles.homeLink}>
+          <strong>MyWebClass.org</strong>
+        </a>
+      </Link>
 
-        <Link href="/about">
-            <a className={styles.navlink}>About ▼</a>
-        </Link>
-        <ul className={styles.dropdown}>
-            <li><Link href="/ourMission"><a className={styles.dropdownLink}>Our Mission</a></Link></li>
-            <li><Link href="/about#partnerships-and-affiliations"><a className={styles.dropdownLink}>Partnerships and Affiliations</a></Link></li>
-        </ul>
-
-        <Link href="/agile-and-lean-principles">
-            <a className={styles.navlink}>Agile and Lean Principles</a>
-        </Link>
-
+      <div className={styles.links}>
         <Link href="/blog">
-            <a className={styles.navlink}>Blog</a>
+          <a className={styles.navlink}>Blog</a>
         </Link>
 
-        <Link href="/resources">
-            <a className={styles.navlink}>Resources ▼</a>
-        </Link>
-        <ul className={styles.dropdown}>
-                <li><Link href="/resources#academic-articles"><a className={styles.dropdownLink}>Academic Articles</a></Link></li>
-                <li><Link href="/webinar"><a className={styles.dropdownLink}>Webinars and Workshops</a></Link></li>
-        </ul>
+        <div className={styles.dropdownContainer}>
+          <Link href="/agile-and-lean-principles">
+            <a className={styles.navlink}>Agile and Lean Principles</a>
+          </Link>
+          <div className={styles.dropdown}>
+            <Link href="/resources#academic-articles">
+              <a className={styles.dropdownLink}>Academic Articles</a>
+            </Link>
+            <Link href="/webinar">
+              <a className={styles.dropdownLink}>Webinars and Workshops</a>
+            </Link>
+          </div>
+        </div>
 
-        <Link href="/services">
+        <div className={styles.dropdownContainer}>
+          <Link href="/services">
             <a className={styles.navlink}>Services ▼</a>
-        </Link>
-        <ul className={styles.dropdown}>
-            <li><Link href="/professional"><a className={styles.dropdownLink}>Professional Development</a></Link></li>
-            <li><Link href="/training"><a className={styles.dropdownLink}>Customized Training and Support</a></Link></li>
-        </ul>
+          </Link>
+          <div className={styles.dropdown}>
+            <Link href="/professional">
+              <a className={styles.dropdownLink}>Professional Development</a>
+            </Link>
+            <Link href="/training">
+              <a className={styles.dropdownLink}>Customized Training and Support</a>
+            </Link>
+          </div>
+        </div>
 
-        <Link href="/contact">
-            <a className={styles.navlink}>Contact</a>
-        </Link>
+        <div className={styles.dropdownContainer}>
+          <Link href="/about">
+            <a className={styles.navlink}>About ▼</a>
+          </Link>
+          <div className={styles.dropdown}>
+            <Link href="/ourMission">
+              <a className={styles.dropdownLink}>Our Mission</a>
+            </Link>
+            <Link href="/about#partnerships-and-affiliations">
+              <a className={styles.dropdownLink}>Partnerships and Affiliations</a>
+            </Link>
+          </div>
+        </div>
 
-        <Link href="/account">
-            <a className={styles.navlink}>Account</a>
-        </Link>
+        <a href="http://eepurl.com/iqwWt2" className={styles.navlink}>Contact</a>
+
+        <div className={styles.accountContainer}>
+          <Link href="/account">
+            <a className={styles.navlink}>
+              <Image src="/accountlogo.png" alt="account logo" width={20} height={20} />
+            </a>
+          </Link>
+        </div>
+      </div>
     </nav>
 
       </header>

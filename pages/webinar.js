@@ -18,6 +18,7 @@ export default function WebinarsWorkshops() {
   gtag('config', 'G-LERWW2ZVSY');
 </script>
 
+
         <title>Webinars and Workshops</title>
       </Head>
       <div className="container mt-5">

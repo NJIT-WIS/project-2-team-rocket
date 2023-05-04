@@ -17,6 +17,7 @@ export default function Partners() {
   gtag('config', 'G-LERWW2ZVSY');
 </script>
 
+
         <title>{siteTitle} | Partners and Affiliations</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

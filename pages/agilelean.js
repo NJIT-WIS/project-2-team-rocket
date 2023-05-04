@@ -17,6 +17,7 @@ export default function AgileAndLean() {
   gtag('config', 'G-LERWW2ZVSY');
 </script>
 
+
         <title>{siteTitle} | Agile and Lean Principles</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

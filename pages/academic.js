@@ -18,6 +18,7 @@ export default function AcademicArticles() {
   gtag('config', 'G-LERWW2ZVSY');
 </script>
 
+
         <title>Academic Articles</title>
       </Head>
       <div className="container mt-5">

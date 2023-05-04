@@ -21,6 +21,7 @@ export default function Home({ allPostsData }) {
   gtag('config', 'G-LERWW2ZVSY');
 </script>
 
+
         <title>{siteTitle}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

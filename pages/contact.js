@@ -19,6 +19,7 @@ export default function Contact() {
   gtag('config', 'G-LERWW2ZVSY');
 </script>
 
+
         <title>{siteTitle} | Contact</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

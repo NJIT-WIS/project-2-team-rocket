@@ -18,6 +18,7 @@ export default function CustomizedTrainingandSupport() {
   gtag('config', 'G-LERWW2ZVSY');
 </script>
 
+
         <title>Customized Training and Support</title>
       </Head>
       <div className="container mt-5">

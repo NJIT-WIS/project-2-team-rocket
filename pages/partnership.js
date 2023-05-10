@@ -8,6 +8,19 @@ export default function Partners() {
   return (
     <Layout home={true}>
       <Head>
+
+<script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-LERWW2ZVSY" >
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-LERWW2ZVSY')
+    </script>
+
+
         <title>{siteTitle} | Partners and Affiliations</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

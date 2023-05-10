@@ -154,4 +154,12 @@
   color: white;
 }
 
+  .card {
+    text-align: center;
+  }
+
+  .card .btn-primary {
+    background-color: teal;
+    color: white;
+  }
 

@@ -28,7 +28,7 @@ export default function Home({ allPostsData }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Welcome to MyWebClass.org: Pioneering the Future of Education.</p>
+        <h2>Welcome to MyWebClass.org: Pioneering the Future of Education.</h2>
 
         <p>
         MyWebClass.org is an organization committed to revolutionizing education by incorporating Agile and Lean principles into the classroom. By empowering students with the skills they need to succeed in the AI-driven world, MyWebClass.org aims to create a culture of continuous improvement.
@@ -53,24 +53,6 @@ export default function Home({ allPostsData }) {
         </Link>
       </div>
     </div>
-
-      </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-      </section>
     </Layout>
   )
 }

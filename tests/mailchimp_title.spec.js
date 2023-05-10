@@ -11,20 +11,3 @@ test('Test Case 1: Test mailchimp Navigation', async ({ browser }) => {
   await page.click('text=Subscribe');
 });
 
-// Run the test
-(async () => {
-  const browser = await { chromium, webkit }[browserName].launch();
-  const context = await browser.newContext();
-  const page = await context.newPage();
-
-  try {
-    await test.run({
-      page,
-    });
-  } catch (error) {
-    console.error('Test failed:', error);
-  } finally {
-    await context.close();
-    await browser.close();
-  }
-})();

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="bad update but its forcing me to">
-      <change afterPath="$PROJECT_DIR$/tests/mailchimp_title.spec.js" afterDir="false" />
+    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="added test case 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683173034912</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added test case 1">
+      <created>1683737984887</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683737984887</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +155,7 @@
     <MESSAGE value="created blog posts, edited about page information" />
     <MESSAGE value="updated activity_log.md" />
     <MESSAGE value="implemented mailchimp and footer.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented mailchimp and footer.js" />
+    <MESSAGE value="added test case 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="added test case 1" />
   </component>
 </project>

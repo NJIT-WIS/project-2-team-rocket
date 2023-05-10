@@ -41,9 +41,11 @@ export default function Home({ allPostsData }) {
             gtag('config', 'G-LERWW2ZVSY');
           `}
         </script>
+      </Helmet>
+      <head>
         <title>{siteTitle}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Helmet>
+      </head>
       <section className={utilStyles.headingMd}>
         <h1>Welcome to MyWebClass.org: Pioneering the Future of Education.</h1>
         <p>

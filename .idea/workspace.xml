@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="added resorces, parneship, shrves, agile and lean pages, edited nav bar">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Agile_and_Lean_principles.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Agile_and_Lean_principles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/academic.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/academic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/ourMission.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ourMission.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/partnership.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/partnership.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/professional.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/professional.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/resources.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/training.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/training.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/webinar.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/webinar.js" afterDir="false" />
-    </list>
+    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="added google analytics onto the index.js" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682567735400</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added google analytics onto the index.js">
+      <created>1683751022825</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683751022825</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +146,7 @@
     <MESSAGE value="deleted overcoming post" />
     <MESSAGE value="added resorces, parneship, shrves, agile and lean pages, edited nav bar" />
     <MESSAGE value="added teal color to the navbar and header tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="added teal color to the navbar and header tags" />
+    <MESSAGE value="added google analytics onto the index.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="added google analytics onto the index.js" />
   </component>
 </project>

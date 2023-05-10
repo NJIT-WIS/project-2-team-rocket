@@ -4,6 +4,7 @@ import Layout, { siteTitle } from '../components/layout'
 import React from 'react'
 import utilStyles from "../styles/utils.module.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from "../components/footer";
 
 export default function Contact() {
   return (
@@ -55,6 +56,7 @@ export default function Contact() {
           </div>
         </form>
       </section>
+      <Footer></Footer>
     </Layout>
   )
 }

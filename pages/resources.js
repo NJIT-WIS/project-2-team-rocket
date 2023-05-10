@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from "../components/footer";
 
 export default function Resources() {
   return (
@@ -26,6 +27,7 @@ export default function Resources() {
           To access our academic articles and upcoming webinars and workshops, please visit our website or sign up for our newsletter to stay updated on our latest resources and events.
         </p>
       </section>
+      <Footer></Footer>
     </Layout>
   );
 }

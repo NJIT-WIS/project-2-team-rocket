@@ -3,6 +3,7 @@ import Layout, { siteTitle } from '../components/layout'
 
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from "../components/footer";
 
 export default function WebinarsWorkshops() {
   return (
@@ -28,6 +29,7 @@ export default function WebinarsWorkshops() {
         Thank you for your understanding, and we look forward to sharing our new and improved website with you soon!
         </p>
       </div>
+      <Footer></Footer>
     </Layout>
   );
 }

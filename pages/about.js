@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Footer from "../components/footer";
 export default function About() {
   return (
   <Layout home={true}>
@@ -27,6 +27,8 @@ export default function About() {
         Join us in this essential journey of transforming education for the AI-driven world. Volunteer for MyWebClass.org and make a difference in your community today!
         </p>
         </section>
+        <Footer></Footer>
     </Layout>
+
   );
 }

@@ -6,6 +6,7 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from '../components/footer'
 
 export default function Home({ allPostsData }) {
   return (
@@ -33,7 +34,9 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+        <Footer></Footer>
     </Layout>
+
   )
 }
 

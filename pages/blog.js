@@ -5,32 +5,51 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from "../components/footer";
+<link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+  integrity="sha384-pzjw35zEv3d1bY6qzltzxg78zUcb1X9z8Rn38s9AlQLUn8kR/PWDCSMbGXJnzgo9"
+  crossorigin="anonymous"
+/>
 
 export default function Blog({ allPostsData }) {
   return (
   <Layout home={true}>
       <Head>
+
+<script async
+      src="https://www.googletagmanager.com/gtag/js?id=G-LERWW2ZVSY" >
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-LERWW2ZVSY')
+    </script>
+
         <title>{siteTitle} | Blog</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-      </section>
-      <Footer></Footer>
+<section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+  <h2 className={utilStyles.headingLg}>Blog</h2>
+  <div className="card-deck">
+    {allPostsData.map(({ id, date, title }) => (
+      <div className="card" key={id}>
+        <div className="card-body">
+          <h5 className="card-title">{title}</h5>
+          <p className="card-text">
+            <small className="text-muted">
+              <Date dateString={date} />
+            </small>
+          </p>
+          <Link href={`/posts/${id}`}>
+            <a className="btn btn-primary">Read More</a>
+          </Link>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
     </Layout>
   )
 }

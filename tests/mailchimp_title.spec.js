@@ -1,7 +1,8 @@
 const {test, expect} = require('@playwright/test')
 const { chromium } = require('playwright');
-
+const { webkit } = require('playwright');
 const path = require('path');
+
 const config = require(path.join(process.cwd(), 'playwright.config.js'));
 
 test('Test Case 1: Test mailchimp Navigation', async ({ page }) => {

@@ -186,7 +186,6 @@ export default function Layout({ children, home }) {
           </a>
         </Link>
       </li>
-
       </div>
     </nav>
 

@@ -29,15 +29,12 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <h2>Welcome to MyWebClass.org: Pioneering the Future of Education.</h2>
-
         <p>
         MyWebClass.org is an organization committed to revolutionizing education by incorporating Agile and Lean principles into the classroom. By empowering students with the skills they need to succeed in the AI-driven world, MyWebClass.org aims to create a culture of continuous improvement.
         </p>
-
         <p>
         Here are three reasons why it's good to volunteer for MyWebClass.org:
         </p>
-
         <ul>
             <li>Make an impact: Contribute to an important and rewarding cause that empowers students for the AI-driven world.</li>
             <li>Develop skills: Gain new skills, such as research, collaboration, and project management, that are valuable in any profession.</li>

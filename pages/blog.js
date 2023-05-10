@@ -17,8 +17,7 @@ export default function Blog({ allPostsData }) {
   <Layout home={true}>
       <Head>
 
-<script
-      async
+<script async
       src="https://www.googletagmanager.com/gtag/js?id=G-LERWW2ZVSY" >
     </script>
     <script>

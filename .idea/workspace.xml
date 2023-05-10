@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="added test case 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="fixing test 1">
+      <change beforePath="$PROJECT_DIR$/tests/mailchimp_title.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/mailchimp_title.spec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683737984887</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added test case 1">
+      <created>1683738804746</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683738804746</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixing test 1">
+      <created>1683739090079</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683739090079</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +170,7 @@
     <MESSAGE value="updated activity_log.md" />
     <MESSAGE value="implemented mailchimp and footer.js" />
     <MESSAGE value="added test case 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="added test case 1" />
+    <MESSAGE value="fixing test 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing test 1" />
   </component>
 </project>

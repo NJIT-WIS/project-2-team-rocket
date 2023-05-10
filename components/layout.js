@@ -71,122 +71,50 @@ export default function Layout({ children, home }) {
           </>
         )}
 
- <nav className={`navbar navbar-expand-lg navbar-dark bg-teal ${styles.navbar}`}>
-  <Link href="/">
-    <a className={`${styles.homeLink} navbar-brand`}>
-      <strong>MyWebClass.org</strong>
-    </a>
-  </Link>
+    <nav className={styles.navbar}>
+        <Link href="/">
+            <span className={styles.navlink + (home ? ` ${styles.active}` : '')}>Home</span>
+        </Link>
 
-  <button
-    className="navbar-toggler"
-    type="button"
-    data-bs-toggle="collapse"
-    data-bs-target="#navbarNav"
-    aria-controls="navbarNav"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
-    <span className="navbar-toggler-icon"></span>
-  </button>
+        <Link href="/about">
+            <a className={styles.navlink}>About ▼</a>
+        </Link>
+        <ul className={styles.dropdown}>
+            <li><Link href="/ourMission"><a className={styles.dropdownLink}>Our Mission</a></Link></li>
+            <li><Link href="/about#partnerships-and-affiliations"><a className={styles.dropdownLink}>Partnerships and Affiliations</a></Link></li>
+        </ul>
 
-  <div className={`collapse navbar-collapse ${styles.links}`} id="navbarNav">
-    <ul className="navbar-nav">
-      <li className="nav-item">
+        <Link href="/Agile_and_Lean_principles">
+            <a className={styles.navlink}>Agile and Lean Principles</a>
+        </Link>
+
         <Link href="/blog">
-          <a className={`${styles.navlink} nav-link`}>Blog</a>
+            <a className={styles.navlink}>Blog</a>
         </Link>
-      </li>
 
-      <li className={`nav-item dropdown ${styles.dropdownContainer}`}>
-        <a
-          className={`${styles.navlink} nav-link dropdown-toggle`}
-          href="#"
-          id="navbarDropdown1"
-          role="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          Agile and Lean Principles
-        </a>
-        <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
-          <li>
-            <Link href="/resources#academic-articles">
-              <a className={styles.dropdownLink}>Academic Articles</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/webinar">
-              <a className={styles.dropdownLink}>Webinars and Workshops</a>
-            </Link>
-          </li>
+        <Link href="/resources">
+            <a className={styles.navlink}>Resources ▼</a>
+        </Link>
+        <ul className={styles.dropdown}>
+                <li><Link href="/resources#academic-articles"><a className={styles.dropdownLink}>Academic Articles</a></Link></li>
+                <li><Link href="/webinar"><a className={styles.dropdownLink}>Webinars and Workshops</a></Link></li>
         </ul>
-      </li>
 
-      <li className={`nav-item dropdown ${styles.dropdownContainer}`}>
-        <a
-          className={`${styles.navlink} nav-link dropdown-toggle`}
-          href="#"
-          id="navbarDropdown2"
-          role="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          Services ▼
-        </a>
-        <ul className="dropdown-menu" aria-labelledby="navbarDropdown2">
-          <li>
-            <Link href="/professional">
-              <a className={styles.dropdownLink}>Professional Development</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/training">
-              <a className={styles.dropdownLink}>Customized Training and Support</a>
-            </Link>
-          </li>
+        <Link href="/services">
+            <a className={styles.navlink}>Services ▼</a>
+        </Link>
+        <ul className={styles.dropdown}>
+            <li><Link href="/professional"><a className={styles.dropdownLink}>Professional Development</a></Link></li>
+            <li><Link href="/training"><a className={styles.dropdownLink}>Customized Training and Support</a></Link></li>
         </ul>
-      </li>
 
-      <li className={`nav-item dropdown ${styles.dropdownContainer}`}>
-        <a
-          className={`${styles.navlink} nav-link dropdown-toggle`}
-          href="#"
-          id="navbarDropdown3"
-          role="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          About ▼
-        </a>
-        <ul className="dropdown-menu" aria-labelledby="navbarDropdown3">
-          <li>
-            <Link href="/ourMission">
-              <a className={styles.dropdownLink}>Our Mission</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/about#partnerships-and-affiliations">
-              <a className={styles.dropdownLink}>Partnerships and Affiliations</a>
-            </Link>
-          </li>
-        </ul>
-      </li>
-
-      <li className="nav-item">
         <Link href="/contact">
-          <a className={`${styles.navlink} nav-link`}>Contact</a>
+            <a className={styles.navlink}>Contact</a>
         </Link>
-      </li>
 
-      <li className="nav-item">
         <Link href="/account">
-          <a className={`${styles.navlink} nav-link`}>
-                        <Image src="/accountlogo.png" alt="account logo" width={20} height={20} />
-          </a>
+            <a className={styles.navlink}>Account</a>
         </Link>
-      </li>
-      </div>
     </nav>
 
       </header>

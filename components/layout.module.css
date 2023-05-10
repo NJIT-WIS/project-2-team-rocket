@@ -17,7 +17,17 @@
 /* Style for the navigation bar */
 /* Custom CSS */
 .navbar {
-  background-color: teal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  height: 60px;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 .navbar a,
@@ -122,4 +132,5 @@
     background-color: teal;
     color: white;
   }
+
 

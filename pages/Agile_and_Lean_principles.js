@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from "../components/footer";
 
 export default function Agile_and_Lean_principles() {
   return (
@@ -24,6 +25,7 @@ export default function Agile_and_Lean_principles() {
         In summary, Agile and Lean principles provide a framework for creating a dynamic and effective learning environment that is responsive to student needs, encourages growth and innovation, and fosters lifelong learning.
         </p>
         </section>
+        <Footer></Footer>
     </Layout>
   );
 }

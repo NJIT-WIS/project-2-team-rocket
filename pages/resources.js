@@ -8,6 +8,7 @@ export default function Resources() {
   return (
     <Layout home={true}>
       <Head>
+
         <title>{siteTitle} | Resources</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="implemented mailchimp and footer.js">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_26_2023_10_22_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_26_2023_10_22_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_26_23,_7_09_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_26_23__7_09_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Agile_and_Lean_principles.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Agile_and_Lean_principles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/academic.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/academic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/ourMission.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ourMission.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/partnership.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/partnership.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/professional.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/professional.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/resources.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/training.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/training.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/webinar.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/webinar.js" afterDir="false" />
-    </list>
+    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="added google analytics onto the index.js" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,13 +29,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -71,9 +45,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680812153053</updated>
-      <workItem from="1683158647787" duration="9460000" />
-      <workItem from="1683349413948" duration="51000" />
-      <workItem from="1683733926667" duration="1537000" />
     </task>
     <task id="LOCAL-00001" summary="changes to javascript">
       <created>1681350650270</created>
@@ -124,25 +95,36 @@
       <option name="project" value="LOCAL" />
       <updated>1682564663401</updated>
     </task>
-    <task id="LOCAL-00008" summary="updated activity_log.md">
-      <created>1683162961582</created>
+    <task id="LOCAL-00008" summary="deleted overcoming post">
+      <created>1682565131982</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1683162961582</updated>
+      <updated>1682565131982</updated>
     </task>
-    <task id="LOCAL-00009" summary="implemented mailchimp and footer.js">
-      <created>1683173034912</created>
+    <task id="LOCAL-00009" summary="added resorces, parneship, shrves, agile and lean pages, edited nav bar">
+      <created>1682566400979</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1683173034912</updated>
+      <updated>1682566400979</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added teal color to the navbar and header tags">
+      <created>1682567735400</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682567735400</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added google analytics onto the index.js">
+      <created>1683751022825</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683751022825</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -161,8 +143,10 @@
     <MESSAGE value="deleted layout.module 2.css and other directories from some of the pages." />
     <MESSAGE value="fixed the home link." />
     <MESSAGE value="created blog posts, edited about page information" />
-    <MESSAGE value="updated activity_log.md" />
-    <MESSAGE value="implemented mailchimp and footer.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented mailchimp and footer.js" />
+    <MESSAGE value="deleted overcoming post" />
+    <MESSAGE value="added resorces, parneship, shrves, agile and lean pages, edited nav bar" />
+    <MESSAGE value="added teal color to the navbar and header tags" />
+    <MESSAGE value="added google analytics onto the index.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="added google analytics onto the index.js" />
   </component>
 </project>

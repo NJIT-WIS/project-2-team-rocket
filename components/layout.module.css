@@ -15,89 +15,49 @@
 }
 
 /* Style for the navigation bar */
+/* Custom CSS */
 .navbar {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  background-color: #333;
+  background-color: teal;
+}
+
+.navbar a,
+.navbar .navbar-brand {
   color: white;
 }
 
-.logo {
-  font-size: 1.5rem;
+.navbar a:hover,
+.navbar .navbar-brand:hover {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.dropdown-menu a {
+  color: white;
+}
+
+.dropdown-menu a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Custom Styles */
+.navlink {
   font-weight: bold;
 }
 
-.navlink {
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  color: inherit;
-}
-
-.active {
-  color: #ffd700;
+.dropdownContainer {
+  position: relative;
 }
 
 .dropdown {
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 1;
-  display: none;
-  min-width: 10rem;
-  padding: 0.5rem 0;
-  background-color: #fff;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-  list-style: none;
+  z-index: 999;
 }
 
-.dropdownLink {
-  display: block;
-  padding: 0.25rem 1rem;
-  text-decoration: none;
-  color: #333;
-}
-
-.navlink:hover,
-.dropdownLink:hover {
-  background-color: #f5f5f5;
-}
-
-.dropdown:hover .dropdownLink {
-  color: #ffd700;
-}
-
-.dropdown:focus-within {
-  display: block;
-}
-
-.right-align {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 1rem;
-}
-
-.account-logo {
-  width: 2rem;
-  height: 2rem;
-  background-image: url('accountlogo');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.contact-link {
-  text-decoration: none;
-  color: inherit;
-}
-
-.contact-link:hover {
-  text-decoration: underline;
-  color: #ffd700;
-}
 
 /* override the Bootstrap H1 styles */
 .tealColor {

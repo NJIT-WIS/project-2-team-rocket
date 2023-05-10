@@ -26,6 +26,9 @@ jobs:
           npx playwright install chromium
           npm install -g lighthouse chrome-launcher axe-core
 
+      - name: Build the application
+        run: npm run build
+
       - name: Start the application
         run: |
           export DISPLAY=:1

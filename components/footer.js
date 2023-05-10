@@ -10,9 +10,9 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-light py-4">
-      <div className="container text-center">
-        <p className="mb-0">Sign up for our newsletter:</p>
+    <footer className="py-4 position-static">
+      <div className="text-center">
+        <p className="mb-0">Sign up to volunteer:</p>
         <a href="#" className="btn btn-primary" onClick={handleMailchimpClick}>Subscribe</a>
       </div>
     </footer>

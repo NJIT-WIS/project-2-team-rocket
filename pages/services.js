@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from "../components/footer";
 
 export default function Services() {
   return (
@@ -22,6 +23,7 @@ export default function Services() {
         Our services are delivered by experienced educators who have a deep understanding of the challenges and opportunities of the AI-driven world. If you're interested in learning more about our services, please contact us at services@mywebclass.org.
         </p>
         </section>
+        <Footer></Footer>
     </Layout>
   );
 }

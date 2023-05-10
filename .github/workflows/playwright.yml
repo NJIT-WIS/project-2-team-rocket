@@ -26,6 +26,7 @@ jobs:
           npx playwright install webkit
           npm install -g lighthouse chrome-launcher axe-core chromium wait-on
           npm install next@latest
+          
 
       - name: Create the build
         run: npm run build

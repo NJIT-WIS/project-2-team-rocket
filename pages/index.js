@@ -6,19 +6,24 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useTranslation } from 'next-i18next'
+
 
 export default function Home({ allPostsData }) {
+  const { t } = useTranslation('home')
+
   return (
     <Layout home={true}>
       <Head>
         <title>{siteTitle}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content={t('homePageDescription')} />
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Welcome to MyWebClass.org: Pioneering the Future of Education.</p>
+        <p>{t(welcomeMessage)}</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>{t('blogSectionHeading')}</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
@@ -27,11 +32,18 @@ export default function Home({ allPostsData }) {
               </Link>
               <br />
               <small className={utilStyles.lightText}>
-                <Date dateString={date} />
+                {t('postedOnText')} <Date dateString={date} />
               </small>
+              <br />
+              <Link href={`/posts/${id}`}>
+                <a>{t('readMoreLinkText')}</a>
+              </Link>
             </li>
           ))}
         </ul>
+        <Link href="/posts">
+          <a>{t('allPosts')}</a>
+        </Link>
       </section>
     </Layout>
   )

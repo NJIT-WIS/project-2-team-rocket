@@ -29,5 +29,24 @@
     "playwright": "^1.33.0",
     "playwright-lighthouse": "^3.0.0",
     "util": "^0.12.5"
-  }
+  },
+  "name": "project-2-team-rocket",
+  "description": "Please READ everything I am giving you and everyone needs to submit in Canvas.\r ## Install Instructions\r **Run:**\r - npm install\r - npm run build <- after first install\r - npm run dev --turbo <-Startup Live Dev Server for lIve preview on http://locahhost:30000",
+  "version": "1.0.0",
+  "main": "playwright.config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NJIT-WIS/project-2-team-rocket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NJIT-WIS/project-2-team-rocket/issues"
+  },
+  "homepage": "https://github.com/NJIT-WIS/project-2-team-rocket#readme"
 }

@@ -1,4 +1,4 @@
-name: Run Playwright Tests and Generate Report
+name: Run Playwright and Generate a video, screenshots, and LightHouse HTML Report
 
 on:
   push:
@@ -8,7 +8,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -24,10 +23,15 @@ jobs:
           sudo apt-get install -y libgbm-dev         
           npm ci
           npx playwright install chromium
-          npm install -g lighthouse chrome-launcher axe-core
+          npm install -g lighthouse chrome-launcher axe-core chromium wait-on
+          npm install next@latest
 
-      - name: Build the application
+      - name: Create the build
         run: npm run build
+
+      - name: Check and kill process on port 3000
+        run: |
+          sudo fuser -k 3000/tcp || true
 
       - name: Start the application
         run: |
@@ -43,8 +47,8 @@ jobs:
         run: |
           lighthouse http://localhost:3000 --output html --output-path ./test-results/report.html --chrome-flags="--headless --no-sandbox --disable-gpu"
 
-      - name: Upload report and screenshots
+      - name: Upload report, screenshots and videos of failed tests
         uses: actions/upload-artifact@v3
         with:
-          name: Test Results
-          path: ./test-results
+          name: ihi
+          path: ./ihi

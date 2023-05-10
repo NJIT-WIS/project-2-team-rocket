@@ -7,14 +7,43 @@ import Link from 'next/link'
 import Date from '../components/date'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '../components/footer'
-
+import { Helmet } from 'react-helmet';
+import { useEffect } from 'react';
+import { initGA, logPageView } from '../lib/analytics';
+import { useRouter } from 'next/router';
 export default function Home({ allPostsData }) {
+    const router = useRouter();
+
+  useEffect(() => {
+    if (!window.GA_INITIALIZED) {
+      initGA();
+      window.GA_INITIALIZED = true;
+    }
+    logPageView();
+    router.events.on('routeChangeComplete', logPageView);
+    return () => {
+      router.events.off('routeChangeComplete', logPageView);
+    };
+  }, [router.events]);
+
   return (
     <Layout home={true}>
-      <Head>
-        <title>{siteTitle}</title>
+        <Helmet>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-LERWW2ZVSY"
+        />
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-LERWW2ZVSY');
+          `}
+        </script>
+            <title>{siteTitle}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
+      </Helmet>
       <section className={utilStyles.headingMd}>
         <p>Welcome to MyWebClass.org: Pioneering the Future of Education.</p>
       </section>

@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="added resorces, parneship, shrves, agile and lean pages, edited nav bar">
+    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="implemented mailchimp and footer.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/agilelean.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Agile_and_Lean_principles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_log.md" beforeDir="false" afterPath="$PROJECT_DIR$/activity_log.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="29-implement-mailchimp" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -23,12 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Git.Branch.Popup.ShowAllRemotes": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\allie\PycharmProjects\project-2-team-rocket" />
@@ -42,6 +60,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680812153053</updated>
+      <workItem from="1683158647787" duration="9460000" />
+      <workItem from="1683349413948" duration="51000" />
+      <workItem from="1683733926667" duration="1537000" />
     </task>
     <task id="LOCAL-00001" summary="changes to javascript">
       <created>1681350650270</created>
@@ -92,29 +113,25 @@
       <option name="project" value="LOCAL" />
       <updated>1682564663401</updated>
     </task>
-    <task id="LOCAL-00008" summary="deleted overcoming post">
-      <created>1682565131982</created>
+    <task id="LOCAL-00008" summary="updated activity_log.md">
+      <created>1683162961582</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1682565131982</updated>
+      <updated>1683162961582</updated>
     </task>
-    <task id="LOCAL-00009" summary="added resorces, parneship, shrves, agile and lean pages, edited nav bar">
-      <created>1682566400979</created>
+    <task id="LOCAL-00009" summary="implemented mailchimp and footer.js">
+      <created>1683173034912</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1682566400979</updated>
+      <updated>1683173034912</updated>
     </task>
-    <task id="LOCAL-00010" summary="added teal color to the navbar and header tags">
-      <created>1682567735400</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1682567735400</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -133,9 +150,8 @@
     <MESSAGE value="deleted layout.module 2.css and other directories from some of the pages." />
     <MESSAGE value="fixed the home link." />
     <MESSAGE value="created blog posts, edited about page information" />
-    <MESSAGE value="deleted overcoming post" />
-    <MESSAGE value="added resorces, parneship, shrves, agile and lean pages, edited nav bar" />
-    <MESSAGE value="added teal color to the navbar and header tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="added teal color to the navbar and header tags" />
+    <MESSAGE value="updated activity_log.md" />
+    <MESSAGE value="implemented mailchimp and footer.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented mailchimp and footer.js" />
   </component>
 </project>

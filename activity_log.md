@@ -22,5 +22,24 @@
 | 1c4db05  | Kaan Okul    | 2022-04-26   | 1           | Success           | Devops   | Merge pull request                                                       |
 | b3f0eaf  | Allie He     | 2022-04-26   | 4           |                   | Frontend | created blog posts...                                                    |
 | e182779  | Allie He     | 2022-04-26   | 1           | Success           | Devops   | Merge remote-tracking branch...                                          |
-
+| 68b8a1b  | Allie He     | 2022-04-26   | 2           | Failure           | Frontend | created blog posts, edited about page information                        |
+| 7af4932  | Allie He     | 2022-04-26   | 1           | Success           | Frontend | deleted overcoming post                                                  |
+| 4d6060a  | Kaan Okul    | 2022-04-26   | 1           | Success           | Devops   | Merge pull request #20 from NJIT_WIS/newAllie                            |
+| 6ee540e  | Allie He     | 2022-04-26   | 1           | Success           | Frontend | added resources, parneship, shrves, agile and lean pages, edited nav bar |
+| 3687cbe  | Kaan Okul    | 2022-04-26   | 1           | Success           | Devops   | Merge pull request #21                                                   |
+| 73a3238  | Allie He     | 2022-04-26   | 1           | Failure           | Frontend | started editing the css/UI, changed colors to teal                       |
+| 51e02e2  | Kaan Okul    | 2022-04-26   | 1           | Success           | Frontend | added teal color to the navbar and header tags                           |
+| 6bf4aad  | Kaan Okul    | 2022-04-26   | 1           | Success           | Devops   | Merge pull request #22                                                   |
+| 60fa306  | Kaan Okul    | 2022-04-27   | 1           | Success           | Frontend | refactored Agile_and_Lean_principles.j                                   |
+| d0d9393  | Kaan Okul    | 2022-04-27   | 1           | Success           | Devops   | Merge pull request #23                                                   |
+| 91e7f21  | Zach Garcia  | 2022-04-27   | 1           | Failure           | Devops   | Added test 1                                                             |
+| 7b54579  | Zach Garcia  | 2022-04-27   | 1           | Failure           | Devops   | Updated json                                                             |
+| a5de21a  | Zach Garcia  | 2022-04-27   | 1           | Success           | Devops   | Updated json                                                             |
+| fc2f6ab  | Zach Garcia  | 2022-04-27   | 1           | Success           | Devops   | Updated json                                                             |
+| 159a937  | Zach Garcia  | 2022-04-27   | 1           | Success           | Devops   | updated page.titles.spec.js                                              |
+| 53a876b  | Zach Garcia  | 2022-04-27   | 1           | Success           | Devops   | updated page.titles.spec.js                                              |
+| 53a876b  | Zach Garcia  | 2022-04-27   | 1           | Success           | Devops   | Merge pull request #26                                                   |
+| d734e53  | Kaan Okul    | 2022-05-04   | 1           | Success           | Devops   | implemented mailchimp and footer.js                                      |
+| 49d3a94  | Kaan Okul    | 2022-05-10   | 1           | Success           | Frontend | added footer to all pages                                                |
+| 2b0551f  | Kaan Okul    | 2022-05-10   | 1           | Failure           | Devops   | Merge pull #37                                                           |
 

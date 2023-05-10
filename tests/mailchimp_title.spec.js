@@ -1,6 +1,5 @@
 const {test, expect} = require('@playwright/test')
-const { chromium } = require('playwright');
-const { webkit } = require('playwright');
+const { chromium, webkit } = require('playwright');
 const path = require('path');
 
 const config = require(path.join(process.cwd(), 'playwright.config.js'));

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="added resorces, parneship, shrves, agile and lean pages, edited nav bar" />
+    <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="fixing test 1">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/playwright.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/playwright.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +34,13 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -45,6 +56,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680812153053</updated>
+      <workItem from="1683158647787" duration="9460000" />
+      <workItem from="1683349413948" duration="51000" />
+      <workItem from="1683733926667" duration="1537000" />
     </task>
     <task id="LOCAL-00001" summary="changes to javascript">
       <created>1681350650270</created>
@@ -95,29 +109,137 @@
       <option name="project" value="LOCAL" />
       <updated>1682564663401</updated>
     </task>
-    <task id="LOCAL-00008" summary="deleted overcoming post">
-      <created>1682565131982</created>
+    <task id="LOCAL-00008" summary="updated activity_log.md">
+      <created>1683162961582</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1682565131982</updated>
+      <updated>1683162961582</updated>
     </task>
-    <task id="LOCAL-00009" summary="added resorces, parneship, shrves, agile and lean pages, edited nav bar">
-      <created>1682566400979</created>
+    <task id="LOCAL-00009" summary="implemented mailchimp and footer.js">
+      <created>1683173034912</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1682566400979</updated>
+      <updated>1683173034912</updated>
     </task>
-    <task id="LOCAL-00010" summary="added teal color to the navbar and header tags">
-      <created>1682567735400</created>
+    <task id="LOCAL-00010" summary="added test case 1">
+      <created>1683737984887</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1682567735400</updated>
+      <updated>1683737984887</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added test case 1">
+      <created>1683738804746</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683738804746</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixing test 1">
+      <created>1683739090079</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683739090079</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fixing test 1">
+      <created>1683739331876</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683739331876</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fixing test 1">
+      <created>1683739857606</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1683739857606</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fixing test 1">
+      <created>1683739880157</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1683739880157</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fixing test 1">
+      <created>1683740501670</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683740501670</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fixing test 1">
+      <created>1683740847720</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1683740847720</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fixing test 1">
+      <created>1683741053679</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1683741053679</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fixing test 1">
+      <created>1683741752982</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1683741752982</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fixing test 1">
+      <created>1683742383884</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1683742383884</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fixing test 1">
+      <created>1683742615930</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1683742615930</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fixing test 1">
+      <created>1683742835711</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1683742835711</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fixing test 1">
+      <created>1683743175554</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1683743175554</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fixing test 1">
+      <created>1683743595786</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1683743595786</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fixing test 1">
+      <created>1683743905652</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1683743905652</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -136,9 +258,10 @@
     <MESSAGE value="deleted layout.module 2.css and other directories from some of the pages." />
     <MESSAGE value="fixed the home link." />
     <MESSAGE value="created blog posts, edited about page information" />
-    <MESSAGE value="deleted overcoming post" />
-    <MESSAGE value="added resorces, parneship, shrves, agile and lean pages, edited nav bar" />
-    <MESSAGE value="added teal color to the navbar and header tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="added teal color to the navbar and header tags" />
+    <MESSAGE value="updated activity_log.md" />
+    <MESSAGE value="implemented mailchimp and footer.js" />
+    <MESSAGE value="added test case 1" />
+    <MESSAGE value="fixing test 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing test 1" />
   </component>
 </project>

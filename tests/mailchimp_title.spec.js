@@ -5,12 +5,12 @@ const path = require('path');
 const config = require(path.join(process.cwd(), 'playwright.config.js'));
 const { pages } = require(path.join(process.cwd(), 'tests', 'pages.json'));
 
-const TIMEOUT = 90000;
+//const TIMEOUT = 90000;
 
 async function navigateMailchimp(pageUrl) {
   const browser = await chromium.launch();
   const page = await browser.newPage();
-  await page.goto(pageUrl, { timeout: TIMEOUT });
+  await page.goto(pageUrl, { timeout: 60000 });
   await page.getByRole('button', { name: 'Sign Up to Volunteer' }).click();
 
 

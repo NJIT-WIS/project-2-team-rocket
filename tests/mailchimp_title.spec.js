@@ -10,7 +10,7 @@ test('Test Case 1: Test mailchimp Navigation', async ({ page }) => {
 
 test('Test Case 2: Check contact form', async ({ page }) => {
   await page.goto('https://njit-wis.github.io/project-2-team-rocket');
-  await page.click('text=Subscribe');
+  await page.click('text=Sign Up to Volunteer');
   await page.getByLabel('Email Address *').click();
   await page.getByLabel('Email Address *').fill('helloworld@gmail.com');
   await page.getByLabel('Name', { exact: true }).click();

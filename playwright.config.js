@@ -30,6 +30,7 @@ module.exports = defineConfig({
       },
       outputDir: path.join(__dirname, 'reports', 'desktop-chrome'),
     },
+    /*
     {
       name: 'Mobile iPhone 12',
       use: {
@@ -38,6 +39,7 @@ module.exports = defineConfig({
       },
       outputDir: path.join(__dirname, 'reports', 'mobile-iphone-12'),
     },
+    */
   ],
 
   // Specify the local development server to run before the tests

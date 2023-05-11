@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Script from 'next/script'
-import Link from 'next/link'
-
-
+import { useState } from 'react';
+import Link from 'next/link';
 import React from 'react'
 import "./layout.module.css"
 import styles from "./layout.module.css"
@@ -14,6 +13,10 @@ const name = "MyWebClass.org"
 export const siteTitle = 'MyWebClass.org'
 
 export default function Layout({ children, home }) {
+    const [isAboutDropdownOpen, setIsAboutDropdownOpen] = useState(false);
+    const [isResourcesDropdownOpen, setIsResourcesDropdownOpen] = useState(false);
+    const [isServiceDropdownOpen, setIsServiceDropdownOpen] = useState(false);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -76,13 +79,30 @@ export default function Layout({ children, home }) {
             <span className={styles.navlink + (home ? ` ${styles.active}` : '')}>Home</span>
         </Link>
 
+        <div className={styles.dropdownContainer}>
         <Link href="/about">
-            <a className={styles.navlink}>About ▼</a>
+    <a
+      className={styles.navlink}
+      onClick={() => setIsAboutDropdownOpen(!isAboutDropdownOpen)}
+    >
+      About {isAboutDropdownOpen ? '▲' : '▼'}
+    </a>
+  </Link>
+        {isAboutDropdownOpen && (
+    <ul className={styles.dropdown}>
+      <li>
+        <Link href="/ourMission">
+          <a className={styles.dropdownLink}>Our Mission</a>
         </Link>
-        <ul className={styles.dropdown}>
-            <li><Link href="/ourMission"><a className={styles.dropdownLink}>Our Mission</a></Link></li>
-            <li><Link href="/about#partnerships-and-affiliations"><a className={styles.dropdownLink}>Partnerships and Affiliations</a></Link></li>
-        </ul>
+      </li>
+      <li>
+        <Link href="/about#partnerships-and-affiliations">
+          <a className={styles.dropdownLink}>Partnerships and Affiliations</a>
+        </Link>
+      </li>
+    </ul>
+  )}
+        </div>
 
         <Link href="/Agile_and_Lean_principles">
             <a className={styles.navlink}>Agile and Lean Principles</a>
@@ -92,22 +112,56 @@ export default function Layout({ children, home }) {
             <a className={styles.navlink}>Blog</a>
         </Link>
 
+        <div className={styles.dropdownContainer}>
         <Link href="/resources">
-            <a className={styles.navlink}>Resources ▼</a>
-        </Link>
-        <ul className={styles.dropdown}>
-                <li><Link href="/resources#academic-articles"><a className={styles.dropdownLink}>Academic Articles</a></Link></li>
-                <li><Link href="/webinar"><a className={styles.dropdownLink}>Webinars and Workshops</a></Link></li>
-        </ul>
+        <a
+          className={styles.navlink}
+          onClick={() => setIsResourcesDropdownOpen(!isResourcesDropdownOpen)}
+        >
+          Resources {isResourcesDropdownOpen ? '▲' : '▼'}
+        </a>
+      </Link>
 
-        <Link href="/services">
-            <a className={styles.navlink}>Services ▼</a>
-        </Link>
-        <ul className={styles.dropdown}>
-            <li><Link href="/professional"><a className={styles.dropdownLink}>Professional Development</a></Link></li>
-            <li><Link href="/training"><a className={styles.dropdownLink}>Customized Training and Support</a></Link></li>
-        </ul>
+          {isResourcesDropdownOpen && (
+            <ul className={styles.dropdown}>
+              <li>
+                <Link href="/resources#academic-articles">
+                  <a className={styles.dropdownLink}>Academic Articles</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/webinar">
+                  <a className={styles.dropdownLink}>Webinars and Workshops</a>
+                </Link>
+              </li>
+            </ul>
+          )}
+        </div>
 
+        <div className={styles.dropdownContainer}>
+          <Link href="/services">
+            <a
+              className={styles.navlink}
+              onClick={() => setIsServiceDropdownOpen(!isServiceDropdownOpen)}
+            >
+              Services {isServiceDropdownOpen ? '▲' : '▼'}
+            </a>
+          </Link>
+          {isServiceDropdownOpen && (
+            <ul className={styles.dropdown}>
+              <li>
+                <Link href="/professional">
+                  <a className={styles.dropdownLink}>Professional Development</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/training">
+                  <a className={styles.dropdownLink}>Customized Training and Support</a>
+                </Link>
+              </li>
+            </ul>
+          )}
+        </div>
         <Link href="/contact">
             <a className={styles.navlink}>Contact</a>
         </Link>

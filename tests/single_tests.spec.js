@@ -3,7 +3,7 @@ const { chromium } = require('playwright');
 
 test('Test Case 1: Check contact form', async ({ page }) => {
   await page.goto('https://njit-wis.github.io/project-2-team-rocket');
-  await page.click('text=Subscribe');
+  await page.click('text=Sign Up to Volunteer');
   await page.getByLabel('Email Address *').click();
   await page.getByLabel('Email Address *').fill('helloworld@gmail.com');
   await page.getByLabel('Name', { exact: true }).click();
@@ -13,5 +13,5 @@ test('Test Case 1: Check contact form', async ({ page }) => {
   await page.getByLabel('Message').click();
   await page.getByLabel('Message').click();
   await page.getByLabel('Message').fill('hello world');
-  await page.getByRole('button', { name: 'Sign Up to Volunteer' }).click();
+  await page.getByRole('button', { name: 'Subscribe' }).click();
 });

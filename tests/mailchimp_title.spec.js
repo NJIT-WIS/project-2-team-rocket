@@ -11,7 +11,7 @@ async function navigateMailchimp(pageUrl) {
   const browser = await chromium.launch();
   const page = await browser.newPage();
   await page.goto(pageUrl, { timeout: TIMEOUT });
-  await page.click('text=Sign Up to Volunteer');
+  await page.getByRole('button', { name: 'Sign Up to Volunteer' }).click();
 
   const pageContent = await page.textContent('body');
   await expect(pageContent).toContain('Volunteer Form');

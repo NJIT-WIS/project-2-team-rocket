@@ -20,7 +20,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #008080;
   color: #fff;
   height: 60px;
   padding: 0 20px;
@@ -40,34 +40,29 @@
   color: white;
 }
 
-.navbar-toggler-icon {
-  background-color: white;
-}
+/*.dropdown-menu a {*/
+/*  color: white;*/
+/*}*/
 
-.dropdown-menu a {
-  color: white;
-}
-
-.dropdown-menu a:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
+/*.dropdown-menu a:hover {*/
+/*  background-color: rgba(255, 255, 255, 0.1);*/
+/*}*/
 
 /* Custom Styles */
 .navlink {
   font-weight: bold;
 }
 
-.dropdownContainer {
-  position: relative;
-}
+/*.dropdownContainer {*/
+/*  position: relative;*/
+/*}*/
 
-.dropdown {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 999;
-}
-
+/*.dropdown {*/
+/*  position: absolute;*/
+/*  top: 100%;*/
+/*  left: 0;*/
+/*  z-index: 999;*/
+/*}*/
 
 /* override the Bootstrap H1 styles */
 .tealColor {
@@ -79,11 +74,6 @@
   background-color: teal;
   border-color: teal;
   color: teal;
-}
-
-/* override the Bootstrap navbar styles */
-.navbar {
-  background-color: #008080;
 }
 
 .gdpr-popup {
@@ -124,14 +114,14 @@
   color: #FFFFFF;
 }
 
-  .card {
-    text-align: center;
-  }
+.card {
+  text-align: center;
+}
 
-  .card .button-primary {
-    background-color: teal;
-    color: teal;
-  }
+.card .button-primary {
+  background-color: teal;
+  color: teal;
+}
 
 .teal-button {
   background-color: teal;
@@ -145,4 +135,33 @@
 
 .teal-button:hover {
   background-color: darkcyan;
+}
+
+
+.dropdownContainer {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+  display: none;
+}
+
+.dropdownContainer:hover .dropdown {
+  display: block;
+}
+
+.dropdownLink {
+  display: block;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+}
+
+.dropdownLink:hover {
+  background-color: #555;
 }

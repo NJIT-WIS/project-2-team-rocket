@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 const { chromium } = require('playwright');
 const path = require('path');
 
-cost config = require(path.join(process.cwd(), 'playwright.config.js'));
+const config = require(path.join(process.cwd(), 'playwright.config.js'));
 const { pages } = require(path.join(process.cwd(), 'tests', 'pages.json'));
 
 const TIMEOUT = 90000;

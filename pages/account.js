@@ -10,6 +10,7 @@ export default function Account() {
   return (
     <Layout home={true}>
       <Head>
+
         <title>{siteTitle} | Account</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

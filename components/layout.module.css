@@ -15,6 +15,7 @@
 }
 
 /* Style for the navigation bar */
+/* Custom CSS */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -29,43 +30,44 @@
   z-index: 1;
 }
 
-/* Style for the links in the navigation bar */
+.navbar a,
+.navbar .navbar-brand {
+  color: white;
+}
+
+.navbar a:hover,
+.navbar .navbar-brand:hover {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.dropdown-menu a {
+  color: white;
+}
+
+.dropdown-menu a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Custom Styles */
 .navlink {
-  color: #fff;
-  font-size: 16px;
-  text-decoration: none;
-  padding: 10px;
+  font-weight: bold;
+}
+
+.dropdownContainer {
   position: relative;
 }
 
-/* Style for the active link in the navigation bar */
-.active {
-  color: #f00;
-}
-
-/* Style for the dropdown container */
 .dropdown {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #333;
-  display: none;
-  min-width: 200px;
+  z-index: 999;
 }
 
-/* Style for the dropdown links */
-.dropdownLink {
-  color: #fff;
-  font-size: 16px;
-  text-decoration: none;
-  padding: 10px;
-  display: block;
-}
-
-/* Show the dropdown menu when hovering over the link */
-.navlink:hover .dropdown {
-  display: block;
-}
 
 /* override the Bootstrap H1 styles */
 .tealColor {
@@ -83,4 +85,52 @@
 .navbar {
   background-color: #008080;
 }
+
+.gdpr-popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  z-index: 9999;
+}
+
+.gdpr-popup.hidden {
+  display: none;
+}
+
+.gdpr-buttons {
+  margin-top: 10px;
+}
+
+.gdpr-buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.gdpr-buttons button.accept {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.gdpr-buttons button.decline {
+  background-color: #f44336;
+  color: #FFFFFF;
+}
+
+  .card {
+    text-align: center;
+  }
+
+  .card .btn-primary {
+    background-color: teal;
+    color: white;
+  }
+
 

@@ -11,6 +11,7 @@ export default function Agile_and_Lean_principles() {
         <title>{siteTitle} | Agile and Lean Principles</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
+
       <section className={utilStyles.headingMd}>
         <p>
         Agile and Lean principles have been widely used in software development and manufacturing, but they also have significant applications in education. By embracing these principles, educators can create a flexible, adaptive, and student-centered learning environment.

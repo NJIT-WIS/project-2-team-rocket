@@ -23,7 +23,7 @@ export default function ProfessionalDevelopment() {
         While we are under construction, you may notice some parts of the site that are not fully functional or that are still being developed. We appreciate your patience as we work to complete these improvements.
         </p>
         <p>
-        If you have any questions or concerns, please feel free to <a href="#">contact us</a>. We value your feedback and want to make sure that we are meeting your needs as best we can.
+        If you have any questions or concerns, please feel free to <a href="../contact.js">contact us</a>. We value your feedback and want to make sure that we are meeting your needs as best we can.
         </p>
         <p>
         Thank you for your understanding, and we look forward to sharing our new and improved website with you soon!

@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12f46015-2822-43ff-aa4e-b99fa7178854" name="Changes" comment="add title in the Head Tag.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Agile_and_Lean_principles.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Agile_and_Lean_principles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/academic.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/academic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/ourMission.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ourMission.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/partnership.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/partnership.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/professional.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/professional.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/resources.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/training.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/training.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/webinar.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/webinar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,19 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\allie\PycharmProjects\project-2-team-rocket" />

@@ -22,7 +22,7 @@ export default function About() {
         <div className="container d-flex align-items-center justify-content-center vh-100">
           <div className="text-center">
             <Link href="http://eepurl.com/iqwWt2">
-              <button className="btn btn-teal btn-lg">
+              <button className="btn btn-outline-primary btn-lg">
                 Sign Up to Volunteer
               </button>
             </Link>

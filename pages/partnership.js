@@ -3,6 +3,9 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "../components/footer";
+import Link from "next/link";
+import React from "react";
+import Button from "../components/button";
 
 export default function Partners() {
   return (
@@ -38,7 +41,15 @@ export default function Partners() {
           We are always looking for new partnerships and collaborations that can help us further our mission. If you are interested in partnering with us, please contact us at <a href="mailto:partnerships@mywebclass.org">partnerships@mywebclass.org</a>.
         </p>
       </section>
-      <Footer></Footer>
+      <div className="container d-flex align-items-center justify-content-center">
+          <div className="text-center">
+            <Link href="http://eepurl.com/iqwWt2">
+              <button className="btn btn-lg btn-outline-primary">
+                Sign Up to Volunteer
+              </button>
+            </Link>
+          </div>
+        </div>
     </Layout>
   );
 }

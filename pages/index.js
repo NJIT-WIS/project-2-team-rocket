@@ -10,6 +10,8 @@ import Footer from '../components/footer';
 import { Helmet } from 'react-helmet';
 import { initGA, logPageView } from '../lib/analytics';
 import { useRouter } from 'next/router';
+import Button from '../components/button';
+import '../components/layout.module.css'
 
 export default function Home({ allPostsData }) {
   const router = useRouter();
@@ -47,23 +49,27 @@ export default function Home({ allPostsData }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <section className={utilStyles.headingMd}>
-        <h1>Welcome to MyWebClass.org: Pioneering the Future of Education.</h1>
-        <p>
-          MyWebClass.org is an organization committed to revolutionizing education by incorporating Agile and Lean principles into the classroom. By empowering students with the skills they need to succeed in the AI-driven world, MyWebClass.org aims to create a culture of continuous improvement.
-        </p>
-        <p>
-          Here are three reasons why it's good to volunteer for MyWebClass.org:
-        </p>
-        <ul>
-          <li>Make an impact: Contribute to an important and rewarding cause that empowers students for the AI-driven world.</li>
-          <li>Develop skills: Gain new skills, such as research, collaboration, and project management, that are valuable in any profession.</li>
-          <li>Join a community: Connect with like-minded professionals and create opportunities for personal and professional growth.</li>
-        </ul>
+        <div className="text-center">
+          <h1>Welcome to MyWebClass.org: Pioneering the Future of Education.</h1>
 
-        <div className="container d-flex align-items-center justify-content-center vh-100">
+          <p>
+            MyWebClass.org is an organization committed to revolutionizing education by incorporating Agile and Lean principles into the classroom. By empowering students with the skills they need to succeed in the AI-driven world, MyWebClass.org aims to create a culture of continuous improvement.
+          </p>
+          <p>
+            Here are three reasons why it's good to volunteer for MyWebClass.org:
+          </p>
+          </div>
+          <ul>
+            <li>Make an impact: Contribute to an important and rewarding cause that empowers students for the AI-driven world.</li>
+            <li>Develop skills: Gain new skills, such as research, collaboration, and project management, that are valuable in any profession.</li>
+            <li>Join a community: Connect with like-minded professionals and create opportunities for personal and professional growth.</li>
+          </ul>
+
+
+        <div className="container d-flex align-items-center justify-content-center">
           <div className="text-center">
             <Link href="http://eepurl.com/iqwWt2">
-              <button className="btn btn-teal btn-lg">
+              <button className="btn btn-lg btn-outline-primary">
                 Sign Up to Volunteer
               </button>
             </Link>

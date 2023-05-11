@@ -5,6 +5,8 @@ import React from 'react'
 import utilStyles from "../styles/utils.module.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "../components/footer";
+import Link from "next/link";
+import Button from "../components/button";
 
 export default function Contact() {
   return (
@@ -51,12 +53,11 @@ export default function Contact() {
 
           <div className="row p-1">
             <div className="col text-center">
-              <button type="submit" className="btn btn-primary mx-auto">Submit</button>
+              <button type="submit" className="btn btn-outline-primary mx-auto">Submit</button>
             </div>
           </div>
         </form>
       </section>
-      <Footer></Footer>
     </Layout>
   )
 }

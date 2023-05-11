@@ -32,7 +32,7 @@ export default function Blog({ allPostsData }) {
             </small>
           </p>
           <Link href={`/posts/${id}`}>
-            <a className="btn btn-primary">Read More</a>
+            <a className="">Read More</a>
           </Link>
         </div>
       </div>

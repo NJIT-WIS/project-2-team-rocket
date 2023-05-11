@@ -13,5 +13,5 @@ test('Test Case 1: Check contact form', async ({ page }) => {
   await page.getByLabel('Message').click();
   await page.getByLabel('Message').click();
   await page.getByLabel('Message').fill('hello world');
-  await page.getByRole('button', { name: 'Subscribe' }).click();
+  await page.getByRole('button', { name: 'Sign Up to Volunteer' }).click();
 });

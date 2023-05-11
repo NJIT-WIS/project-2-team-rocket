@@ -78,7 +78,7 @@
 .btn {
   background-color: teal;
   border-color: teal;
-  color: white;
+  color: teal;
 }
 
 /* override the Bootstrap navbar styles */
@@ -128,9 +128,21 @@
     text-align: center;
   }
 
-  .card .btn-primary {
+  .card .button-primary {
     background-color: teal;
-    color: white;
+    color: teal;
   }
 
+.teal-button {
+  background-color: teal;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
 
+.teal-button:hover {
+  background-color: darkcyan;
+}

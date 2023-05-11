@@ -4,6 +4,8 @@ import Layout, { siteTitle } from '../components/layout'
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "../components/footer";
+import Link from "next/link";
+import Button from "../components/button";
 
 export default function AcademicArticles() {
   return (
@@ -29,7 +31,15 @@ export default function AcademicArticles() {
         Thank you for your understanding, and we look forward to sharing our new and improved website with you soon!
         </p>
       </div>
-      <Footer></Footer>
+      <div className="container d-flex align-items-center justify-content-center">
+          <div className="text-center">
+            <Link href="http://eepurl.com/iqwWt2">
+              <button className="btn btn-lg btn-outline-primary">
+                Sign Up to Volunteer
+              </button>
+            </Link>
+          </div>
+        </div>
     </Layout>
   );
 }

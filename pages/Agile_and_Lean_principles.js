@@ -3,6 +3,9 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "../components/footer";
+import Link from "next/link";
+import React from "react";
+import Button from "../components/button";
 
 export default function Agile_and_Lean_principles() {
   return (
@@ -26,7 +29,15 @@ export default function Agile_and_Lean_principles() {
         In summary, Agile and Lean principles provide a framework for creating a dynamic and effective learning environment that is responsive to student needs, encourages growth and innovation, and fosters lifelong learning.
         </p>
         </section>
-        <Footer></Footer>
+        <div className="container d-flex align-items-center justify-content-center">
+          <div className="text-center">
+            <Link href="http://eepurl.com/iqwWt2">
+              <button className="btn btn-lg btn-outline-primary">
+                Sign Up to Volunteer
+              </button>
+            </Link>
+          </div>
+        </div>
     </Layout>
   );
 }
